@@ -36,10 +36,6 @@ const recipeSchema = new mongoose.Schema(
     imageUrl: {
       type: String,
     },
-    author: {
-      type: mongoose.Types.ObjectId,
-      ref: "User",
-    },
   },
   { timestamps: true }
 );

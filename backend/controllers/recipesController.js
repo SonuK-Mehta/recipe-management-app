@@ -32,3 +32,27 @@ export const getAllRecipesController = async (req, res, next) => {
     res.status(500).json({ message: "Server Error" });
   }
 };
+
+// ========= UPDATE RECIPES =========
+export const updateRecipeController = async (req, res, next) => {
+  try {
+    const { id } = req.params;
+    console.log(id);
+
+    // Directly update the recipe
+    const updatedRecipe = await recipeModel.findByIdAndUpdate(id, req.body, {
+      new: true,
+      runValidators: true,
+    });
+
+    // If recipe is not found, return 404
+    if (!updatedRecipe) {
+      return res.status(404).json({ message: "Recipe not found" });
+    }
+
+    res.status(200).json(updatedRecipe);
+  } catch (error) {
+    console.log(error);
+    res.status(500).json({ message: "Error updating recipe" });
+  }
+};
