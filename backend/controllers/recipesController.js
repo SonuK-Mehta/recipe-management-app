@@ -18,3 +18,17 @@ export const createRecipeController = async (req, res, next) => {
     res.status(500).json({ message: "Error creating recipe" });
   }
 };
+
+//=========== GET RECIPE =========
+export const getAllRecipesController = async (req, res, next) => {
+  try {
+    const recipes = await recipeModel.find();
+    res.status(200).json({
+      totalRecipes: recipes.length,
+      recipes,
+    });
+  } catch (error) {
+    console.log(error);
+    res.status(500).json({ message: "Server Error" });
+  }
+};
