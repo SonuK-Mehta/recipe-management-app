@@ -14,7 +14,7 @@ const recipeSchema = new mongoose.Schema(
       type: String,
       required: [true, "Instructions are required"],
     },
-    category: {
+    categories: {
       type: String,
       required: [true, "Category is required"],
       enum: [
