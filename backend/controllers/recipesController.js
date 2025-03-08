@@ -73,3 +73,30 @@ export const deleteRecipeController = async (req, res, next) => {
     next(error);
   }
 };
+
+// ============= SERCH RECIPE ================
+
+// Controller to get recipes by title
+export const getRecipesByTitle = async (req, res) => {
+  const { query } = req.params; // Get the query from the URL
+
+  try {
+    // Search for recipes by title, case-insensitive search
+    const recipes = await recipeModel.find({
+      title: { $regex: query, $options: "i" }, // 'i' makes it case-insensitive
+    });
+
+    if (recipes.length === 0) {
+      return res.status(404).json({
+        message: "No recipes found",
+      });
+    }
+
+    return res.json({
+      totalRecipes: recipes.length,
+      recipes,
+    });
+  } catch (error) {
+    next(error);
+  }
+};
