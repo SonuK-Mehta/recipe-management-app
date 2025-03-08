@@ -21,16 +21,12 @@ const recipeSchema = new mongoose.Schema(
         "Indian",
         "Italian",
         "Chinese",
-        "Mexican",
         "American",
-        "Mediterranean",
-        "French",
-        "Thai",
         "Vegetarian",
         "Dessert",
-        "Vegan",
         "Breakfast",
         "Snacks",
+        "Drinks",
       ], // Restrict categories to predefined values
     },
     imageUrl: {

@@ -1,0 +1,163 @@
+[
+  {
+    "title": "Butter Chicken",
+    "ingredients": [
+      "500g chicken, boneless",
+      "1 onion, chopped",
+      "2 tomatoes, chopped",
+      "1 cup cream",
+      "2 tbsp butter",
+      "1 tbsp ginger-garlic paste",
+      "1 tbsp garam masala",
+      "1 tsp chili powder",
+      "1 tsp turmeric",
+      "Salt to taste",
+      "Coriander leaves for garnish"
+    ],
+    "instructions": "1. Marinate chicken with yogurt, turmeric, and chili powder for 1 hour. 2. Heat butter in a pan, add onions and ginger-garlic paste. 3. Add tomatoes and cook until soft. 4. Add garam masala and cook for 2 minutes. 5. Add marinated chicken and cook for 10 minutes. 6. Add cream and simmer for 5 minutes. Garnish with coriander leaves.",
+    "categories": "Indian",
+    "imageUrl": "https://example.com/butter_chicken.jpg"
+  },
+  {
+    "title": "Spaghetti Aglio e Olio",
+    "ingredients": [
+      "200g spaghetti",
+      "4 garlic cloves, sliced",
+      "1/4 cup olive oil",
+      "1/4 tsp red chili flakes",
+      "Fresh parsley, chopped",
+      "Salt to taste",
+      "Grated Parmesan for garnish"
+    ],
+    "instructions": "1. Cook spaghetti in salted water until al dente. 2. Heat olive oil in a pan, add garlic, and cook until golden. 3. Add chili flakes and cook for 30 seconds. 4. Toss cooked spaghetti into the pan and mix well. 5. Garnish with parsley and Parmesan.",
+    "categories": "Italian",
+    "imageUrl": "https://example.com/spaghetti_aglio_e_olio.jpg"
+  },
+  {
+    "title": "Sweet and Sour Chicken",
+    "ingredients": [
+      "500g chicken breast, diced",
+      "1 onion, chopped",
+      "1 bell pepper, chopped",
+      "1/2 cup pineapple chunks",
+      "2 tbsp soy sauce",
+      "2 tbsp vinegar",
+      "2 tbsp ketchup",
+      "1 tbsp sugar",
+      "1/4 cup cornstarch",
+      "Salt and pepper to taste"
+    ],
+    "instructions": "1. Coat chicken in cornstarch and fry until golden. 2. In a separate pan, cook onion and bell pepper. 3. Add pineapple, soy sauce, vinegar, ketchup, and sugar. 4. Stir until sauce thickens, then add fried chicken. 5. Cook for another 2 minutes and serve.",
+    "categories": "Chinese",
+    "imageUrl": "https://example.com/sweet_and_sour_chicken.jpg"
+  },
+  {
+    "title": "Cheeseburger",
+    "ingredients": [
+      "2 beef patties",
+      "2 hamburger buns",
+      "2 slices of cheddar cheese",
+      "Lettuce leaves",
+      "Tomato slices",
+      "Pickles",
+      "Ketchup and mustard"
+    ],
+    "instructions": "1. Grill the beef patties to desired doneness. 2. Toast the buns on a grill. 3. Place cheese on the patties and melt. 4. Assemble the burger with lettuce, tomato, pickles, ketchup, and mustard.",
+    "categories": "American",
+    "imageUrl": "https://example.com/cheeseburger.jpg"
+  },
+  {
+    "title": "Vegetable Stir-fry",
+    "ingredients": [
+      "1 cup broccoli florets",
+      "1 carrot, sliced",
+      "1 bell pepper, chopped",
+      "1 onion, chopped",
+      "2 tbsp soy sauce",
+      "1 tbsp olive oil",
+      "1 tsp ginger-garlic paste",
+      "1 tbsp sesame seeds",
+      "Salt and pepper to taste"
+    ],
+    "instructions": "1. Heat oil in a pan and add ginger-garlic paste. 2. Add vegetables and stir-fry for 5 minutes. 3. Add soy sauce, sesame seeds, salt, and pepper. Stir well and cook for another 2 minutes.",
+    "categories": "Vegetarian",
+    "imageUrl": "https://example.com/vegetable_stir_fry.jpg"
+  },
+  {
+    "title": "Chocolate Cake",
+    "ingredients": [
+      "1 1/2 cups all-purpose flour",
+      "1 cup sugar",
+      "1/2 cup cocoa powder",
+      "1 tsp baking soda",
+      "1/2 tsp baking powder",
+      "1/2 tsp salt",
+      "1 cup water",
+      "1/2 cup vegetable oil",
+      "2 eggs",
+      "1 tsp vanilla extract"
+    ],
+    "instructions": "1. Preheat the oven to 350°F (175°C). 2. Mix dry ingredients in one bowl and wet ingredients in another. 3. Combine both and mix well. 4. Pour into a greased baking pan and bake for 30 minutes. 5. Let the cake cool before serving.",
+    "categories": "Dessert",
+    "imageUrl": "https://example.com/chocolate_cake.jpg"
+  },
+  {
+    "title": "Pancakes",
+    "ingredients": [
+      "1 cup all-purpose flour",
+      "2 tbsp sugar",
+      "1 tbsp baking powder",
+      "1/2 tsp salt",
+      "1 cup milk",
+      "1 egg",
+      "2 tbsp melted butter"
+    ],
+    "instructions": "1. Mix dry ingredients in a bowl. 2. Whisk together wet ingredients in another bowl. 3. Combine both and stir until smooth. 4. Pour batter onto a hot griddle and cook until golden on both sides.",
+    "categories": "Breakfast",
+    "imageUrl": "https://example.com/pancakes.jpg"
+  },
+  {
+    "title": "French Fries",
+    "ingredients": [
+      "4 potatoes, peeled and cut into strips",
+      "Vegetable oil for frying",
+      "Salt to taste"
+    ],
+    "instructions": "1. Heat oil in a deep fryer. 2. Fry potato strips until golden and crispy. 3. Drain excess oil on paper towels and season with salt.",
+    "categories": "Snacks",
+    "imageUrl": "https://example.com/french_fries.jpg"
+  },
+  {
+    "title": "Mojito",
+    "ingredients": [
+      "10 fresh mint leaves",
+      "1 tbsp sugar",
+      "1/2 lime, cut into wedges",
+      "1 oz white rum",
+      "Club soda",
+      "Ice cubes"
+    ],
+    "instructions": "1. Muddle mint leaves, lime, and sugar in a glass. 2. Add rum and fill the glass with ice. 3. Top with club soda and stir.",
+    "categories": "Drinks",
+    "imageUrl": "https://example.com/mojito.jpg"
+  },
+  {
+    "title": "Chicken Tikka Masala",
+    "ingredients": [
+      "500g chicken, cubed",
+      "1 onion, chopped",
+      "1 tomato, chopped",
+      "1 cup yogurt",
+      "2 tbsp ginger-garlic paste",
+      "1 tbsp garam masala",
+      "1 tsp cumin",
+      "1 tsp coriander powder",
+      "1/2 tsp turmeric",
+      "1/2 cup cream",
+      "Salt to taste"
+    ],
+    "instructions": "1. Marinate chicken with yogurt and spices for 1 hour. 2. Grill chicken until cooked. 3. In a pan, cook onions and ginger-garlic paste. 4. Add tomatoes and cook until soft. 5. Add grilled chicken and cook for 5 minutes. 6. Stir in cream and simmer for 10 minutes.",
+    "categories": "Indian",
+    "imageUrl": "https://example.com/chicken_tikka_masala.jpg"
+  }
+]

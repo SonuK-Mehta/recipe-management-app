@@ -3,7 +3,7 @@ import recipeModel from "../models/recipeModel.js";
 // ======== CREATE RECIPE ======
 export const createRecipeController = async (req, res, next) => {
   try {
-    const { title, ingredients, instructions, categories } = req.body;
+    const { title, ingredients, instructions, categories, imageUrl } = req.body;
 
     if (!title || !ingredients || !instructions || !categories) {
       return res.status(400).json({ message: "All fields are required" });
@@ -12,7 +12,11 @@ export const createRecipeController = async (req, res, next) => {
     // req.body.author = req.user.userId;
     const newRecipe = await recipeModel.create(req.body);
 
-    res.status(201).json({ newRecipe });
+    res.status(201).json({
+      message: "Recipe added successfully",
+      totalAdded: newRecipe.length,
+      newRecipe,
+    });
   } catch (error) {
     console.log(error);
     res.status(500).json({ message: "Error creating recipe" });
@@ -97,6 +101,33 @@ export const getRecipesByTitle = async (req, res) => {
       recipes,
     });
   } catch (error) {
+    next(error);
+  }
+};
+
+// ========== GET RECIPES BY CATEGORY ==========
+export const getRecipesByCategoryController = async (req, res, next) => {
+  try {
+    const { category } = req.params; // Extract category from request params
+
+    // Find all recipes that match the category
+    const recipes = await recipeModel.find({
+      categories: { $regex: category, $options: "i" }, // 'i' makes it case-insensitive
+    });
+
+    // If no recipes found for the category
+    if (recipes.length === 0) {
+      return res
+        .status(404)
+        .json({ message: `No recipes found for category: ${category}` });
+    }
+
+    res.status(200).json({
+      totalRecipes: recipes.length,
+      recipes,
+    });
+  } catch (error) {
+    console.log(error);
     next(error);
   }
 };

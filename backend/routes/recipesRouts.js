@@ -3,6 +3,7 @@ import {
   createRecipeController,
   deleteRecipeController,
   getAllRecipesController,
+  getRecipesByCategoryController,
   getRecipesByTitle,
   updateRecipeController,
 } from "../controllers/recipesController.js";
@@ -24,5 +25,8 @@ router.delete("/delete-recipe/:id", deleteRecipeController);
 
 // SEARCH RECIPES || GET
 router.get("/search/:query", getRecipesByTitle);
+
+// New route for fetching recipes by category
+router.get("/category/:category", getRecipesByCategoryController);
 
 export default router;
