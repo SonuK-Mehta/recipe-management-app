@@ -33,11 +33,14 @@ const Navbar = () => {
 
       {/* Search Bar with Button */}
       <div className={styles.searchBarContainer}>
-        <form onSubmit={() => {}} className={styles.form}>
+        <form
+          onSubmit={(e) => {
+            e.preventDefault();
+          }}
+          className={styles.form}
+        >
           <input type="text" placeholder="Search..." className={styles.input} />
-          <button type="submit" className={styles.button}>
-            Search
-          </button>
+          <button className={styles.button}>Search</button>
         </form>
       </div>
 

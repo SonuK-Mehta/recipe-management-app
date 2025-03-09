@@ -10,7 +10,7 @@ const Footer = () => {
         </p>
         <div className={styles.socialLinks}>
           <a
-            href="https://github.com/your-profile"
+            href="https://github.com/sonuk-mehta"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.socialLink}
@@ -18,15 +18,7 @@ const Footer = () => {
             GitHub
           </a>
           <a
-            href="https://www.linkedin.com/in/your-profile"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.socialLink}
-          >
-            LinkedIn
-          </a>
-          <a
-            href="https://twitter.com/your-profile"
+            href="https://x.com/SonukMehta7"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.socialLink}
