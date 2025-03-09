@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Mukta", "Poppins", sans-serif; /* Indian-inspired fonts */
+}
+
+body {
+  min-height: 100vh;
+  background-color: #fff8e1; /* Light yellow for an earthy, warm feel */
+}

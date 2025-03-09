@@ -1,0 +1,28 @@
+/* Add this to your CSS module or global styles */
+.underConstruction {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  color: #e74c3c; /* Red color for attention */
+  margin-top: 20rem;
+}
+
+.underConstruction h1 {
+  font-size: 3.8rem;
+}
+
+.underConstruction p {
+  font-size: 2.6rem;
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  underConstruction h1 {
+    font-size: 2.8rem;
+  }
+
+  .underConstruction p {
+    font-size: 2rem;
+    margin-top: 1.5rem;
+  }
+}

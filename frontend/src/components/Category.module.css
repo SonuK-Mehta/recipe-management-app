@@ -1,0 +1,136 @@
+/* Category.module.css */
+.categorySection {
+  padding: 3rem 5rem;
+  text-align: center;
+  background-color: #fff3e0;
+}
+
+.title {
+  font-size: 3.4rem;
+  font-weight: bold;
+  color: #d84315;
+  margin-bottom: 2rem;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.categoryButton {
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+  background-color: #ff7043;
+  color: white;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 200px;
+}
+
+.categoryButton:hover {
+  background-color: #e64a19;
+}
+
+.dishes {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+}
+
+.dishCard {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  width: 100%;
+  max-width: 280px;
+  cursor: pointer;
+}
+
+.dishImage {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 1rem;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.dishName {
+  font-size: 1.8rem;
+  color: #5d4037;
+  font-weight: bold;
+}
+
+/* Remove underline from Link */
+.recipeLink {
+  text-decoration: none; /* Ensures no underline */
+  display: block; /* Makes the entire area clickable */
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+  .categorySection {
+    padding: 2rem;
+  }
+
+  .title {
+    font-size: 3rem;
+  }
+
+  .categories {
+    gap: 1rem;
+    flex-direction: row; /* Keep in a single row for mobile */
+  }
+
+  .categoryButton {
+    width: 100%;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+  }
+
+  .dishes {
+    grid-template-columns: repeat(
+      auto-fill,
+      minmax(250px, 1fr)
+    ); /* Keep same columns */
+  }
+
+  .dishCard {
+    max-width: 250px;
+  }
+}
+
+/* Small Mobile View */
+@media (max-width: 480px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .categories {
+    flex-direction: row; /* Keep in a single row for small devices */
+    gap: 1rem; /* Adjust the gap between buttons */
+  }
+
+  .categoryButton {
+    font-size: 1.3rem;
+    padding: 0.8rem 1.5rem;
+    width: 100%;
+  }
+
+  .dishes {
+    grid-template-columns: repeat(
+      auto-fill,
+      minmax(100px, 1fr)
+    ); /* Same grid structure */
+  }
+
+  .dishCard {
+    max-width: 100%;
+  }
+}

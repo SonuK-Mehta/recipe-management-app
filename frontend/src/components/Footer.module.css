@@ -1,0 +1,45 @@
+.footer {
+  background-color: #d84315; /* Warm Indian theme color */
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 3rem;
+}
+
+.content {
+  max-width: 960px; /* Limited max width */
+  margin: 0 auto;
+}
+
+.text {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.socialLinks {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap; /* Ensures social links wrap on small screens */
+}
+
+.socialLink {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.socialLink:hover {
+  color: #ffeb99;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 2rem 1rem;
+  }
+
+  .socialLinks {
+    gap: 1rem;
+  }
+}

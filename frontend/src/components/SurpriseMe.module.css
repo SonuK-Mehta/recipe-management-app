@@ -1,0 +1,127 @@
+.surpriseMeContainer {
+  text-align: left;
+  margin-top: 1.5rem;
+}
+
+.surpriseButton {
+  padding: 1rem 2rem;
+  background-color: #f39c12;
+  color: white;
+  font-size: 1.2rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+}
+
+.surpriseButton:hover {
+  background-color: #e67e22;
+}
+
+.surpriseButton:disabled {
+  background-color: #bdc3c7;
+  cursor: not-allowed;
+}
+
+/* Modal Styles */
+.modalBackdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.7
+  ); /* Darker background for better visibility */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.modalContent {
+  background-color: #fff;
+  padding: 2.7rem;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 600px;
+  overflow-y: auto;
+  text-align: center;
+  position: relative;
+  max-height: 90vh; /* Limit the modal height to prevent overflow */
+  overflow-y: scroll; /* Add scroll if content overflows */
+}
+
+/* Close button styles */
+.closeButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+  border: none;
+  font-size: 1.5rem;
+  color: #333;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+.closeButton:hover {
+  color: #e74c3c;
+}
+
+/* Recipe Image */
+.recipeImage {
+  width: 100%;
+  height: auto;
+  max-width: 100%; /* Ensure image doesn't overflow the modal */
+  max-height: 300px; /* Limit image height to fit better in the modal */
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.recipeInfo {
+  margin-top: 1.5rem;
+  text-align: left;
+}
+
+.recipeTitle {
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.recipeCategory {
+  font-size: 2rem;
+  color: #16a085;
+}
+
+.section {
+  margin-top: 1.5rem;
+}
+
+.section h3 {
+  font-size: 2.1rem;
+}
+
+.ingredientList {
+  padding-left: 3rem;
+}
+
+.ingredientItem {
+  font-size: 1.6rem;
+  margin: 0.5rem 0;
+}
+
+h3 {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  font-size: 1.4rem;
+}
