@@ -1,4 +1,5 @@
 import recipeModel from "../models/recipeModel.js";
+import mongoose from "mongoose";
 
 // ======== CREATE RECIPE ======
 export const createRecipeController = async (req, res, next) => {
@@ -34,6 +35,26 @@ export const getAllRecipesController = async (req, res, next) => {
   } catch (error) {
     console.log(error);
     res.status(500).json({ message: "Server Error" });
+  }
+};
+
+//=========== GET SINGLE RECIPE =========
+export const getOneRecipeController = async (req, res, next) => {
+  const id = new mongoose.Types.ObjectId(req.params);
+  console.log(id);
+  try {
+    const recipe = await recipeModel.findOne(id);
+
+    if (!recipe) {
+      return res.status(404).json({ message: "Recipe not found" });
+    }
+    res.status(200).json({
+      message: "Recipe found",
+      recipe,
+    });
+  } catch (error) {
+    console.log(error);
+    next(error);
   }
 };
 

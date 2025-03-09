@@ -1,163 +1,297 @@
 [
   {
-    "title": "Butter Chicken",
+    "title": "Aloo Paratha",
     "ingredients": [
-      "500g chicken, boneless",
-      "1 onion, chopped",
-      "2 tomatoes, chopped",
-      "1 cup cream",
-      "2 tbsp butter",
-      "1 tbsp ginger-garlic paste",
-      "1 tbsp garam masala",
-      "1 tsp chili powder",
-      "1 tsp turmeric",
-      "Salt to taste",
-      "Coriander leaves for garnish"
+      "Potatoes",
+      "Wheat Flour",
+      "Cumin Seeds",
+      "Green Chilies",
+      "Coriander",
+      "Ginger",
+      "Salt",
+      "Ghee"
     ],
-    "instructions": "1. Marinate chicken with yogurt, turmeric, and chili powder for 1 hour. 2. Heat butter in a pan, add onions and ginger-garlic paste. 3. Add tomatoes and cook until soft. 4. Add garam masala and cook for 2 minutes. 5. Add marinated chicken and cook for 10 minutes. 6. Add cream and simmer for 5 minutes. Garnish with coriander leaves.",
-    "categories": "Indian",
-    "imageUrl": "https://example.com/butter_chicken.jpg"
-  },
-  {
-    "title": "Spaghetti Aglio e Olio",
-    "ingredients": [
-      "200g spaghetti",
-      "4 garlic cloves, sliced",
-      "1/4 cup olive oil",
-      "1/4 tsp red chili flakes",
-      "Fresh parsley, chopped",
-      "Salt to taste",
-      "Grated Parmesan for garnish"
-    ],
-    "instructions": "1. Cook spaghetti in salted water until al dente. 2. Heat olive oil in a pan, add garlic, and cook until golden. 3. Add chili flakes and cook for 30 seconds. 4. Toss cooked spaghetti into the pan and mix well. 5. Garnish with parsley and Parmesan.",
-    "categories": "Italian",
-    "imageUrl": "https://example.com/spaghetti_aglio_e_olio.jpg"
-  },
-  {
-    "title": "Sweet and Sour Chicken",
-    "ingredients": [
-      "500g chicken breast, diced",
-      "1 onion, chopped",
-      "1 bell pepper, chopped",
-      "1/2 cup pineapple chunks",
-      "2 tbsp soy sauce",
-      "2 tbsp vinegar",
-      "2 tbsp ketchup",
-      "1 tbsp sugar",
-      "1/4 cup cornstarch",
-      "Salt and pepper to taste"
-    ],
-    "instructions": "1. Coat chicken in cornstarch and fry until golden. 2. In a separate pan, cook onion and bell pepper. 3. Add pineapple, soy sauce, vinegar, ketchup, and sugar. 4. Stir until sauce thickens, then add fried chicken. 5. Cook for another 2 minutes and serve.",
-    "categories": "Chinese",
-    "imageUrl": "https://example.com/sweet_and_sour_chicken.jpg"
-  },
-  {
-    "title": "Cheeseburger",
-    "ingredients": [
-      "2 beef patties",
-      "2 hamburger buns",
-      "2 slices of cheddar cheese",
-      "Lettuce leaves",
-      "Tomato slices",
-      "Pickles",
-      "Ketchup and mustard"
-    ],
-    "instructions": "1. Grill the beef patties to desired doneness. 2. Toast the buns on a grill. 3. Place cheese on the patties and melt. 4. Assemble the burger with lettuce, tomato, pickles, ketchup, and mustard.",
-    "categories": "American",
-    "imageUrl": "https://example.com/cheeseburger.jpg"
-  },
-  {
-    "title": "Vegetable Stir-fry",
-    "ingredients": [
-      "1 cup broccoli florets",
-      "1 carrot, sliced",
-      "1 bell pepper, chopped",
-      "1 onion, chopped",
-      "2 tbsp soy sauce",
-      "1 tbsp olive oil",
-      "1 tsp ginger-garlic paste",
-      "1 tbsp sesame seeds",
-      "Salt and pepper to taste"
-    ],
-    "instructions": "1. Heat oil in a pan and add ginger-garlic paste. 2. Add vegetables and stir-fry for 5 minutes. 3. Add soy sauce, sesame seeds, salt, and pepper. Stir well and cook for another 2 minutes.",
-    "categories": "Vegetarian",
-    "imageUrl": "https://example.com/vegetable_stir_fry.jpg"
-  },
-  {
-    "title": "Chocolate Cake",
-    "ingredients": [
-      "1 1/2 cups all-purpose flour",
-      "1 cup sugar",
-      "1/2 cup cocoa powder",
-      "1 tsp baking soda",
-      "1/2 tsp baking powder",
-      "1/2 tsp salt",
-      "1 cup water",
-      "1/2 cup vegetable oil",
-      "2 eggs",
-      "1 tsp vanilla extract"
-    ],
-    "instructions": "1. Preheat the oven to 350°F (175°C). 2. Mix dry ingredients in one bowl and wet ingredients in another. 3. Combine both and mix well. 4. Pour into a greased baking pan and bake for 30 minutes. 5. Let the cake cool before serving.",
-    "categories": "Dessert",
-    "imageUrl": "https://example.com/chocolate_cake.jpg"
-  },
-  {
-    "title": "Pancakes",
-    "ingredients": [
-      "1 cup all-purpose flour",
-      "2 tbsp sugar",
-      "1 tbsp baking powder",
-      "1/2 tsp salt",
-      "1 cup milk",
-      "1 egg",
-      "2 tbsp melted butter"
-    ],
-    "instructions": "1. Mix dry ingredients in a bowl. 2. Whisk together wet ingredients in another bowl. 3. Combine both and stir until smooth. 4. Pour batter onto a hot griddle and cook until golden on both sides.",
+    "instructions": "Boil the potatoes and mash them. In a bowl, mix mashed potatoes with cumin seeds, chopped green chilies, ginger, coriander, and salt. Prepare dough by kneading wheat flour with water and a pinch of salt. Roll out dough into circles, stuff with the potato mixture, and seal. Roll again gently into a paratha and cook on a heated griddle, applying ghee on both sides until golden brown.",
     "categories": "Breakfast",
-    "imageUrl": "https://example.com/pancakes.jpg"
+    "imageUrl": "https://github.com/SonuK-Mehta/image-storage/blob/main/All%20Image.jpeg?raw=true"
   },
   {
-    "title": "French Fries",
+    "title": "Poha",
     "ingredients": [
-      "4 potatoes, peeled and cut into strips",
-      "Vegetable oil for frying",
-      "Salt to taste"
+      "Flattened Rice",
+      "Onion",
+      "Peanuts",
+      "Mustard Seeds",
+      "Turmeric",
+      "Green Chilies",
+      "Coriander",
+      "Lemon"
     ],
-    "instructions": "1. Heat oil in a deep fryer. 2. Fry potato strips until golden and crispy. 3. Drain excess oil on paper towels and season with salt.",
+    "instructions": "Heat oil in a pan and add mustard seeds. Once they splutter, add chopped onions, green chilies, and peanuts, and sauté. Add turmeric and salt. Stir in the flattened rice and cook for a few minutes. Garnish with coriander leaves and squeeze lemon juice on top. Serve warm.",
+    "categories": "Breakfast",
+    "imageUrl": "https://github.com/SonuK-Mehta/image-storage/blob/main/All%20Image.jpeg?raw=true"
+  },
+  {
+    "title": "Chole Bhature",
+    "ingredients": [
+      "Chickpeas",
+      "Flour",
+      "Yogurt",
+      "Baking Soda",
+      "Onion",
+      "Tomato",
+      "Ginger-Garlic Paste",
+      "Chili Powder"
+    ],
+    "instructions": "Soak chickpeas overnight and boil until soft. Prepare the dough for bhature by mixing flour, yogurt, salt, and a pinch of baking soda. Roll into small balls and deep fry until puffed. For the chole, sauté onions, tomatoes, ginger-garlic paste, and spices. Add boiled chickpeas and simmer for 20 minutes. Serve hot with bhature.",
+    "categories": "Lunch",
+    "imageUrl": "https://github.com/SonuK-Mehta/image-storage/blob/main/All%20Image.jpeg?raw=true"
+  },
+  {
+    "title": "Masoor Dal",
+    "ingredients": [
+      "Red Lentils",
+      "Onion",
+      "Tomato",
+      "Garlic",
+      "Cumin Seeds",
+      "Turmeric",
+      "Coriander",
+      "Ghee"
+    ],
+    "instructions": "Rinse lentils and cook them with water, turmeric, and salt. In a pan, heat ghee and add cumin seeds, chopped onion, garlic, and tomatoes. Sauté until golden, then add this tempering to the cooked lentils. Simmer for 10 minutes. Garnish with coriander leaves and serve with rice or roti.",
+    "categories": "Lunch",
+    "imageUrl": "https://github.com/SonuK-Mehta/image-storage/blob/main/All%20Image.jpeg?raw=true"
+  },
+  {
+    "title": "Paneer Butter Masala",
+    "ingredients": [
+      "Paneer",
+      "Tomato",
+      "Butter",
+      "Cream",
+      "Onion",
+      "Ginger-Garlic Paste",
+      "Cumin Seeds",
+      "Spices"
+    ],
+    "instructions": "Sauté onions and ginger-garlic paste in butter. Add chopped tomatoes and cook until soft. Add spices like garam masala, turmeric, and chili powder. Once the tomatoes blend into a smooth gravy, add paneer cubes and cook for 5 minutes. Stir in cream and simmer for another 5 minutes. Serve with naan or rice.",
+    "categories": "Dinner",
+    "imageUrl": "https://github.com/SonuK-Mehta/image-storage/blob/main/All%20Image.jpeg?raw=true"
+  },
+  {
+    "title": "Dosa",
+    "ingredients": ["Rice", "Urad Dal", "Fenugreek Seeds", "Salt", "Oil"],
+    "instructions": "Soak rice, urad dal, and fenugreek seeds overnight. Grind them together into a smooth batter and let it ferment for 8-10 hours. Heat a non-stick pan, grease with oil, and pour a thin layer of batter. Cook until golden and crispy. Serve with coconut chutney and sambar.",
+    "categories": "Breakfast",
+    "imageUrl": "https://github.com/SonuK-Mehta/image-storage/blob/main/All%20Image.jpeg?raw=true"
+  },
+  {
+    "title": "Methi Thepla",
+    "ingredients": [
+      "Fenugreek Leaves",
+      "Wheat Flour",
+      "Cumin Seeds",
+      "Ginger",
+      "Chili Powder",
+      "Turmeric",
+      "Ghee"
+    ],
+    "instructions": "In a bowl, mix wheat flour, cumin seeds, chili powder, turmeric, and chopped fenugreek leaves. Add water to form a dough. Roll out small portions of dough into thin circles and cook on a griddle, applying ghee on both sides. Serve with yogurt or pickle.",
+    "categories": "Breakfast",
+    "imageUrl": "https://github.com/SonuK-Mehta/image-storage/blob/main/All%20Image.jpeg?raw=true"
+  },
+  {
+    "title": "Samosa",
+    "ingredients": [
+      "Potatoes",
+      "Green Peas",
+      "Onion",
+      "Ginger",
+      "Garlic",
+      "Cumin Seeds",
+      "Coriander",
+      "Spices",
+      "Samosa Wrappers"
+    ],
+    "instructions": "Boil potatoes and mash them. In a pan, sauté onions, garlic, ginger, and spices like cumin, coriander, and garam masala. Add peas and cook for a few minutes. Stuff the mixture in samosa wrappers and deep fry until golden. Serve with mint chutney.",
     "categories": "Snacks",
-    "imageUrl": "https://example.com/french_fries.jpg"
+    "imageUrl": "https://github.com/SonuK-Mehta/image-storage/blob/main/All%20Image.jpeg?raw=true"
   },
   {
-    "title": "Mojito",
+    "title": "Pav Bhaji",
     "ingredients": [
-      "10 fresh mint leaves",
-      "1 tbsp sugar",
-      "1/2 lime, cut into wedges",
-      "1 oz white rum",
-      "Club soda",
-      "Ice cubes"
+      "Potatoes",
+      "Tomatoes",
+      "Green Peas",
+      "Cauliflower",
+      "Onion",
+      "Bell Pepper",
+      "Pav Bhaji Masala",
+      "Butter"
     ],
-    "instructions": "1. Muddle mint leaves, lime, and sugar in a glass. 2. Add rum and fill the glass with ice. 3. Top with club soda and stir.",
-    "categories": "Drinks",
-    "imageUrl": "https://example.com/mojito.jpg"
+    "instructions": "Boil potatoes, peas, and cauliflower. In a pan, sauté onions, tomatoes, bell pepper, and spices. Add the boiled vegetables and mash them into a thick consistency. Stir in pav bhaji masala and cook for 10 minutes. Serve with buttered pav rolls.",
+    "categories": "Snacks",
+    "imageUrl": "https://github.com/SonuK-Mehta/image-storage/blob/main/All%20Image.jpeg?raw=true"
   },
   {
-    "title": "Chicken Tikka Masala",
+    "title": "Biryani",
     "ingredients": [
-      "500g chicken, cubed",
-      "1 onion, chopped",
-      "1 tomato, chopped",
-      "1 cup yogurt",
-      "2 tbsp ginger-garlic paste",
-      "1 tbsp garam masala",
-      "1 tsp cumin",
-      "1 tsp coriander powder",
-      "1/2 tsp turmeric",
-      "1/2 cup cream",
-      "Salt to taste"
+      "Rice",
+      "Chicken",
+      "Yogurt",
+      "Onion",
+      "Ginger-Garlic Paste",
+      "Spices",
+      "Mint",
+      "Coriander"
     ],
-    "instructions": "1. Marinate chicken with yogurt and spices for 1 hour. 2. Grill chicken until cooked. 3. In a pan, cook onions and ginger-garlic paste. 4. Add tomatoes and cook until soft. 5. Add grilled chicken and cook for 5 minutes. 6. Stir in cream and simmer for 10 minutes.",
-    "categories": "Indian",
-    "imageUrl": "https://example.com/chicken_tikka_masala.jpg"
+    "instructions": "Marinate chicken with yogurt, ginger-garlic paste, and spices for 2 hours. Cook rice with whole spices until 70% done. In a pan, sauté onions and cook the marinated chicken. Layer the cooked chicken with rice and cook on low heat for 15 minutes. Garnish with mint and coriander. Serve with raita.",
+    "categories": "Dinner",
+    "imageUrl": "https://github.com/SonuK-Mehta/image-storage/blob/main/All%20Image.jpeg?raw=true"
+  },
+  {
+    "title": "Idli",
+    "ingredients": ["Rice", "Urad Dal", "Fenugreek Seeds", "Salt", "Water"],
+    "instructions": "Soak rice, urad dal, and fenugreek seeds overnight. Grind them into a smooth batter and let it ferment for 8-12 hours. Grease idli molds and pour the batter into each mold. Steam for 10-15 minutes. Serve hot with chutney and sambar.",
+    "categories": "Breakfast",
+    "imageUrl": "https://github.com/SonuK-Mehta/image-storage/blob/main/All%20Image.jpeg?raw=true"
+  },
+  {
+    "title": "Upma",
+    "ingredients": [
+      "Semolina",
+      "Mustard Seeds",
+      "Green Chilies",
+      "Onion",
+      "Ginger",
+      "Curry Leaves",
+      "Cashews",
+      "Salt"
+    ],
+    "instructions": "In a pan, heat oil and add mustard seeds, curry leaves, chopped onions, green chilies, and ginger. Add semolina and roast it lightly. Gradually add water and cook until the upma thickens. Garnish with roasted cashews and serve hot.",
+    "categories": "Breakfast",
+    "imageUrl": "https://github.com/SonuK-Mehta/image-storage/blob/main/All%20Image.jpeg?raw=true"
+  },
+  {
+    "title": "Kadhi Pakora",
+    "ingredients": [
+      "Gram Flour",
+      "Yogurt",
+      "Onion",
+      "Chili Powder",
+      "Ginger-Garlic Paste",
+      "Cumin Seeds",
+      "Coriander Leaves"
+    ],
+    "instructions": "Make pakoras by mixing gram flour, water, onions, chili powder, and salt. Deep fry small balls of the batter. For kadhi, whisk yogurt and gram flour in water to make a smooth batter. Boil it in a pan and add the fried pakoras. Simmer for 15 minutes and garnish with coriander leaves.",
+    "categories": "Lunch",
+    "imageUrl": "https://github.com/SonuK-Mehta/image-storage/blob/main/All%20Image.jpeg?raw=true"
+  },
+  {
+    "title": "Aloo Gobi",
+    "ingredients": [
+      "Potatoes",
+      "Cauliflower",
+      "Onion",
+      "Tomato",
+      "Turmeric",
+      "Garam Masala",
+      "Cumin Seeds",
+      "Coriander Leaves"
+    ],
+    "instructions": "Sauté onions and tomatoes in oil. Add chopped potatoes and cauliflower, along with spices. Cook until tender, adding water if necessary. Garnish with coriander leaves and serve with roti or rice.",
+    "categories": "Lunch",
+    "imageUrl": "https://github.com/SonuK-Mehta/image-storage/blob/main/All%20Image.jpeg?raw=true"
+  },
+  {
+    "title": "Tandoori Chicken",
+    "ingredients": [
+      "Chicken",
+      "Yogurt",
+      "Ginger-Garlic Paste",
+      "Garam Masala",
+      "Chili Powder",
+      "Lemon Juice",
+      "Cumin"
+    ],
+    "instructions": "Marinate chicken with yogurt, ginger-garlic paste, spices, and lemon juice. Let it sit for 2-3 hours. Grill the chicken in a preheated oven at 180°C for 25-30 minutes. Serve with onion rings and naan.",
+    "categories": "Dinner",
+    "imageUrl": "https://github.com/SonuK-Mehta/image-storage/blob/main/All%20Image.jpeg?raw=true"
+  },
+  {
+    "title": "Vada Pav",
+    "ingredients": [
+      "Potatoes",
+      "Pav Buns",
+      "Chili Powder",
+      "Coriander",
+      "Mustard Seeds",
+      "Bun",
+      "Garlic Chutney"
+    ],
+    "instructions": "Boil and mash potatoes. Make a spicy mixture with chili powder, coriander, and spices. Shape into patties and fry until golden. Serve the vada in a pav bun with garlic chutney and fried green chilies.",
+    "categories": "Snacks",
+    "imageUrl": "https://github.com/SonuK-Mehta/image-storage/blob/main/All%20Image.jpeg?raw=true"
+  },
+  {
+    "title": "Dhokla",
+    "ingredients": [
+      "Gram Flour",
+      "Yogurt",
+      "Turmeric",
+      "Eno Fruit Salt",
+      "Mustard Seeds",
+      "Curry Leaves",
+      "Sugar"
+    ],
+    "instructions": "Mix gram flour, yogurt, turmeric, and water to make a smooth batter. Pour into a greased steamer and steam for 20 minutes. Prepare tempering with mustard seeds, curry leaves, and sugar, and pour over the steamed dhokla. Cut into pieces and serve.",
+    "categories": "Snacks",
+    "imageUrl": "https://github.com/SonuK-Mehta/image-storage/blob/main/All%20Image.jpeg?raw=true"
+  },
+  {
+    "title": "Rajma",
+    "ingredients": [
+      "Kidney Beans",
+      "Tomato",
+      "Onion",
+      "Ginger-Garlic Paste",
+      "Cumin Seeds",
+      "Chili Powder",
+      "Coriander Powder"
+    ],
+    "instructions": "Soak kidney beans overnight and cook until soft. Sauté onions, tomatoes, ginger-garlic paste, and spices in a pan. Add the cooked beans and simmer for 15 minutes. Serve with rice or roti.",
+    "categories": "Lunch",
+    "imageUrl": "https://github.com/SonuK-Mehta/image-storage/blob/main/All%20Image.jpeg?raw=true"
+  },
+  {
+    "title": "Bhindi Masala",
+    "ingredients": [
+      "Okra",
+      "Onion",
+      "Tomato",
+      "Cumin Seeds",
+      "Chili Powder",
+      "Garam Masala",
+      "Coriander Leaves"
+    ],
+    "instructions": "Sauté chopped onions and tomatoes in oil. Add chopped okra and cook on medium heat until tender. Add chili powder, garam masala, and coriander leaves. Stir well and cook for 5 minutes. Serve with roti.",
+    "categories": "Dinner",
+    "imageUrl": "https://github.com/SonuK-Mehta/image-storage/blob/main/All%20Image.jpeg?raw=true"
+  },
+  {
+    "title": "Momos",
+    "ingredients": [
+      "All-purpose Flour",
+      "Cabbage",
+      "Carrot",
+      "Ginger",
+      "Garlic",
+      "Soy Sauce",
+      "Chili Sauce"
+    ],
+    "instructions": "Make dough by mixing all-purpose flour and water. Prepare the filling with finely chopped cabbage, carrots, ginger, garlic, and soy sauce. Stuff the dough with the filling, shape into small dumplings, and steam for 15 minutes. Serve with chili sauce.",
+    "categories": "Snacks",
+    "imageUrl": "https://github.com/SonuK-Mehta/image-storage/blob/main/All%20Image.jpeg?raw=true"
   }
 ]

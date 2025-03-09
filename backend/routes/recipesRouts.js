@@ -3,6 +3,7 @@ import {
   createRecipeController,
   deleteRecipeController,
   getAllRecipesController,
+  getOneRecipeController,
   getRecipesByCategoryController,
   getRecipesByTitle,
   updateRecipeController,
@@ -16,6 +17,9 @@ router.post("/create-recipe", createRecipeController);
 
 // GET RECIPES || GET
 router.get("/get-recipe", getAllRecipesController);
+
+// GET SINGLE RECIPES || GET
+router.get("/recipe/:id", getOneRecipeController);
 
 // UPDATE RECIPES || PUT
 router.put("/update-recipe/:id", updateRecipeController);

@@ -22,13 +22,14 @@ const recipeSchema = new mongoose.Schema(
       minlength: [10, "Instructions must be at least 10 characters long"],
     },
     categories: {
-      type: String,
-      required: [true, "Category is required"],
-      enum: ["Breakfast", "Lunch", "Dinner", "Snacks", "Dessert", "Drinks"],
+      type: [String], // Supports multiple meal types
+      required: [true, "At least one category is required"],
+      enum: ["Breakfast", "Lunch", "Dinner", "Snacks"], // Fixed meal categories
     },
     imageUrl: {
       type: String,
-      default: "https://example.com/default-recipe.jpg", // Set a default image
+      default:
+        "https://github.com/SonuK-Mehta/image-storage/blob/main/All%20Image.jpeg?raw=true", // Set a default image
     },
   },
   { timestamps: true }
