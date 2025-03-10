@@ -6,6 +6,7 @@ import AllRecipes from "./pages/AllRecipes";
 import RecipeDetails from "./pages/RecipeDetails";
 import DragAndDrop from "./pages/DragAndDrop";
 import SubmitRecipe from "./pages/SubmitRecipe";
+import NotFound from "./components/NotFound";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
             <Route path="/recipe/:id" element={<RecipeDetails />} />
             <Route path="/meal-plan" element={<DragAndDrop />} />
             <Route path="/add-recipe" element={<SubmitRecipe />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </div>
       </div>
