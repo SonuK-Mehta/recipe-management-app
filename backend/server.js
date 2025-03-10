@@ -33,3 +33,11 @@ const PORT = process.env.PORT || 8000;
 app.listen(PORT, () => {
   console.log(`Server running on PORT ${PORT}`.bgCyan.white);
 });
+
+
+/**
+ * © 2025 Sonu Mehta. All rights reserved.
+ * This code is licensed under CC BY-NC-ND 4.0.
+ * You may not use this code for commercial purposes or in personal portfolios.
+ */
+
