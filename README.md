@@ -72,3 +72,12 @@ For detailed setup, refer to the **README.md** files in the respective folders:
 ---
 
 ✨This Project is a showcase of my work and dedication. Thank you for exploring it! 🚀
+
+---
+
+
+ * © 2025 Sonu Mehta. All rights reserved.
+ * This code is licensed under CC BY-NC-ND 4.0.
+ * You may not use this code for commercial purposes or in personal portfolios.
+   
+
