@@ -81,3 +81,10 @@ This project is licensed under the **MIT License**.
 
 Enjoy cooking with the **Recipe Management App**! 🍲🔥
 
+## License
+This project is licensed under **CC BY-NC-ND 4.0**   
+- **No commercial use is allowed.**  
+- **This code may not be used in personal projects, resumes, or portfolios.**  
+- **For any other use, please contact the author for permission.**  
+
+
