@@ -156,10 +156,9 @@ GET /api/v1/recipes/category/:category
 
 ### 🎉 Happy Coding & Bon Appétit! 🍜
 
-## License
-This project is licensed under **CC BY-NC-ND 4.0** - 
-- **No commercial use is allowed.**  
-- **This code may not be used in personal projects, resumes, or portfolios.**  
-- **For any other use, please contact the author for permission.**  
+ * © 2025 Sonu Mehta. All rights reserved.  
+ * The content, design, and code of this website are the property of Sonu Mehta.
+ * Unauthorized use, reproduction, or redistribution is prohibited.
+ * For permission to use, please contact **https://github.com/sonuk-mehta**.
 
 
