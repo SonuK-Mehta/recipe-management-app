@@ -5,7 +5,7 @@ import styles from "./SubmitRecipe.module.css";
 const SubmitRecipe = () => {
   const [formData, setFormData] = useState({
     title: "",
-    ingredients: "",
+    ingredients: [],
     instructions: "",
     categories: "",
     imageUrl: "",
@@ -57,7 +57,7 @@ const SubmitRecipe = () => {
     try {
       await createRecipe({
         ...formData,
-        ingredients: formData.ingredients.split(",").map((ing) => ing.trim()),
+        ingredients: formData.ingredients.split(" ").map((ing) => ing.trim()),
         imageUrl:
           formData.imageUrl.trim() ||
           "https://github.com/SonuK-Mehta/image-storage/blob/main/All%20Image.jpeg?raw=true", // ✅ Default image URL
