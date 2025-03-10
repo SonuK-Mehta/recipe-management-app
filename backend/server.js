@@ -35,9 +35,10 @@ app.listen(PORT, () => {
 });
 
 
-/**
- * © 2025 Sonu Mehta. All rights reserved.
- * This code is licensed under CC BY-NC-ND 4.0.
- * You may not use this code for commercial purposes or in personal portfolios.
+/*
+ * © 2025 Sonu Mehta. All rights reserved.  
+ * The content, design, and code of this website are the property of Sonu Mehta.
+ * Unauthorized use, reproduction, or redistribution is prohibited.
+ * For permission to use, please contact **https://github.com/sonuk-mehta**.
  */
 
