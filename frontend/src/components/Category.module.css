@@ -126,7 +126,7 @@
   .dishes {
     grid-template-columns: repeat(
       auto-fill,
-      minmax(100px, 1fr)
+      minmax(180px, 1fr)
     ); /* Same grid structure */
   }
 
